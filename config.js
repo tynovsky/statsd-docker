@@ -121,10 +121,10 @@ Optional Variables:
 
 (function() {
     return {
-        graphiteHost:        process.env.GRAPHITE_HOST || "graphite",
-        graphitePort:        parseInt(process.env.GRAPHITE_PORT) || 2003,
-        graphitePicklePort:  parseInt(process.env.GRAPHITE_PICKLE_PORT) || 2004,
-        graphiteProtocol:    process.env.GRAPHITE_PROTOCOL || "text",
+        graphiteHost:        process.env.STATSD_GRAPHITE_HOST || "graphite",
+        graphitePort:        parseInt(process.env.STATSD_GRAPHITE_PORT) || 2003,
+        graphitePicklePort:  parseInt(process.env.STATSD_GRAPHITE_PICKLE_PORT) || 2004,
+        graphiteProtocol:    process.env.STATSD_GRAPHITE_PROTOCOL || "text",
         //TODO: backends: 
         //TODO: servers:
 
