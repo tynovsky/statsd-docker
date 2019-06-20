@@ -1,5 +1,7 @@
 # statsd-docker
 
+[![](https://images.microbadger.com/badges/image/tynovsky/statsd.svg)](https://microbadger.com/images/tynovsky/statsd "Get your own image badge on microbadger.com")
+
 Statsd docker image based on alpine node image.
 
 Configurable by the following env variables:
